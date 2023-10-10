@@ -460,6 +460,11 @@ header .content-wrap .logo {
 	padding: 0;
 }
 
+.content-block-footer ul,div li a{
+	text-decoration: none;
+	color: #333;
+}
+
 .content-block-footer li {
 	margin-bottom: 11px;
 	color: #333;
