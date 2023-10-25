@@ -391,8 +391,8 @@ header .content-wrap .logo {
 	display: flex;
   	justify-content: space-between;
 	justify-content: right;
-  	align-items: center;
-	padding-top: 22vw;
+  	align-items: top;
+	padding-top: 17vw;
 	margin-top: 50px;
 	margin-bottom: 70px;
 }
@@ -432,6 +432,7 @@ header .content-wrap .logo {
 	flex-direction: column;
 	font-size: 22.4px;
 	padding-top: 20px;
+	margin-top: clamp(1px, 15vw, 190px);
 }
 
 .content-block-footer{
@@ -471,6 +472,10 @@ header .content-wrap .logo {
 	font-family: "Libre Franklin", sans-serif;
 	font-size: 24px;
 	font-weight: 400;
+}
+
+.lab2{
+	padding-top: 10px;
 }
 
 @media screen and (max-width: 800px) {
